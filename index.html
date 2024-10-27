@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 5</title>
+    <!---Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      .font_family{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .new_font_family{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="background: url(original-bg.jpg);" >
+        <div class="row">
+        <div style="padding-top: 20px;">
+            <nav class="navbar navbar-expand-lg " style="background-color: #434a54;height:50px;border-radius: 10px;align-items: center;">
+                <a class="navbar-brand" href="#"><img src="cflogo.png" alt="" height="fit-content" style="border-top-left-radius:10px ;border-bottom-left-radius: 10px;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#" style="margin-left:500px;background-color: #30343e;height: 50px;color: rgb(224, 210, 11);vertical-align: middle;">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: white;margin-left: 20px;">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;margin-left: 20px;">Messages</a>
+                      </li>
+                      <li class="nav-item">
+                        <img src="avatar.jpg" alt="Avatar" style="border-radius: 50%;height: 45px;width:45px ;border: 1px solid white;margin: 2px;margin-left: 150px;">
+                      </li>
+                   
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;margin-left: 10px;"><strong>Stella John </strong> </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;margin-left: 20px;">LogOut</a>
+                      </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+        </div>
+   </div>
+    <!--ending of navigation here-->
+    <!--statring of body here-->
+    <div class="row" style="margin-top: 50px;">
+      <div class="col">
+       <div style="width: 350px;" ><!----Left side colum (page)-->
+        <div style="background-color: white;opacity: 50%;padding-bottom: 50px;">
+            <div align="center"> <img src="avatar.jpg" alt="avatar img" style="margin-top: 50px;border-radius: 50%;border: 5px solid rgb(138, 91, 91);" height="110px" width="100px">
+            <br>
+                <h3 style="margin-top: 5px;">Stella John</h3> 
+                <input type="button" value="Edit Profile" width="100px" height="25px" style="border-radius: 5px;background-color: #00bff3;color: white; border: none;">
+            
+            </div>
+            <br>
+            
+            <div style="margin-left: 20px;">
+              <strong>Short Bio :</strong>
+              <p>
+                Lorem ipsum dolor sit amet,consectutar adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+             <div style="position: relative;">
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" fill="currentColor" class="bi bi-geo-alt " viewBox="0 0 16 16" style="position: absolute;margin-top: 7px;"  >
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+             
+              
+                  <span style="padding-left: 40px;color: #878787;">7463 Ivy CA #8877, <br><span style="padding-left: 40px;color: #878787;">Umui m dolor sit amet.</span></span> 
+            </div>
+            <div style="position: relative;margin-top: 20px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16" style="margin-top: 7px;position: absolute;">
+                <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5z"/>
+                <path d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64l.012-.013.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5M8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3"/>
+              </svg>
+             
+              
+                  <span style="padding-left: 40px;color: #878787;">Member Since <br><span style="padding-left: 40px;color: #878787;">November 2010</span></span> 
+            </div>
+          </div>
+        </div>
+        <!--End of transparancy background-->
+          <div style="background-color: white;margin-top: -20px;padding-bottom: 20px;">
+            <div style="margin-top: 20px;background-color: #434a54;height: 40px;align-items: center;display: flex;"  >
+              <strong><span style="color: white;padding-left: 10px;">FOLLOWERS   (34)</span></strong>
+              
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" style="align-items: center;display: flex;margin-left:160px;color:white;">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+              </svg>
+            </div>
+            <div style="margin-top: 2px;background-color: #434a54;width: 100%;height: 40px;align-items: center;display: flex;"  >
+              <strong><span style="color: white;padding-left: 10px;">FOLLOWING   (44)</span></strong>
+              
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" style="color: white;margin-left: 158px;">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+              </svg>
+            </div>
+            <div style="margin-top: 2px;background-color: #434a54;width: 100%;height: 40px;align-items: center;display: flex;"  >
+             <strong><span style="color: white;padding-left: 10px;">TROPHIES<span style="color: #00bff3;padding-left: 15px;">(Show All)</span></span></strong> 
+              
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16" style="color: white;margin-left: 116px;">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+              </svg>
+            </div>
+            <div style="margin-top: 2px;background-color: #30363e;width: 100%;height: 40px;align-items: center;display: flex;"  >
+              <strong><span style="color: white;padding-left: 10px;">SIBSCRIBE ACTIVITES</span></strong> 
+               
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16" style="color: #00bff3;margin-left:125px">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+              </svg>
+             
+             </div>
+             <div style="margin-left: 40px;margin-top: 10px;font-family: Arial, Helvetica, sans-serif;">
+              RUNNING<br>WEIGHT LIFTING<br>BASKET BALL <br>SOFT BALL <br> BASEBALL <br>TENNIS 
+              
+            </div>
+
+            
+
+          </div>
+          <div style="background-color: white;opacity: 50%;height: 50px;"><!---last empty -->
+
+          </div>
+        
+      
+      
+    </div>
+  </div><!---left side (column) page end here-->
+
+    <div  class="col" align="center"><!--middle column (section) start here-->
+        <div style="background-color: white;width: 650px;padding-bottom: 5px;margin-bottom: 100px;" >
+          <div align="right" style="margin-right: 10px;padding-top: 10px;"><span style="color: #878787;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Today, 3.39PM</span></div>
+            <div style="position: relative;padding-top: 10px;" align="left"><!---first user-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Paul Brunet <span style="color: #878787;">posted in </span><span style="color: #00bff3;">Running</span></span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                 consequat. Duis aute irure dolor in reprehenderit in volup-<br> tate velit 
+                  esse cillum dolore eu fugiat nulla pariatur.
+              
+            </div>
+            <div align="right" style="margin-right: 10px;">
+            <span style="color: #00bff3;">Read More ></span>
+             </div>
+             <hr style="margin-left: 10px;margin-right: 10px;"  >
+
+            </div><!---first user close here-->
+            <div style="position: relative;padding-top: 10px;" align="left"><!---second user start here-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Anne Hathaway  </span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              
+            </div>
+           
+             
+
+            </div><!---second user close here-->
+            <div style="position: relative;padding-top: 40px;" align="left"><!---third user start here-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Remy Daniel  </span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+              
+            </div>
+            <div align="right" style="margin-right: 10px;">
+              <span style="color: #00bff3;">More Comments ></span>
+               </div>
+           
+             
+
+            </div><!---third user close here-->
+
+            <div style="background-color: #434a54;height: 100px;margin-top: 20px;align-content: center;"align="LEFT"><!--middle portion (search box start here)-->
+               <span style="color: white;margin-left: 20px;"class="font_family" >Comments</span>
+               <textarea style="width: 400px;vertical-align: middle;border-radius: 5px;margin-left: 10px;" placeholder="Write your comment here..."></textarea>
+               <input type="button" value="Post"  style="border-radius: 5px;background-color: #00bff3;color: white; border: none;padding: 10px;width: 100px;vertical-align: middle;margin-left: 10px;">
+              </div><!-----middle portion end here-->
+
+              <div align="right" style="margin-right: 10px;padding-top: 10px;"><span style="color: #878787;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Yesteday, 6.49AM</span></div>
+            <div style="position: relative;padding-top: 10px;" align="left"><!---first user-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Paul Brunet <span style="color: #878787;">posted in </span><span style="color: #00bff3;">Baseball</span></span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                 consequat. Duis aute irure dolor in reprehenderit in volup-<br> tate velit 
+                  esse cillum dolore eu fugiat nulla pariatur.
+              
+            </div>
+            <div align="right" style="margin-right: 10px;">
+            <span style="color: #00bff3;">Read More ></span>
+             </div>
+             <hr style="margin-left: 10px;margin-right: 10px;"  >
+
+            </div><!---first user close here-->
+            <div style="position: relative;padding-top: 10px;" align="left"><!---second user start here-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Anne Hathaway  </span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              
+            </div>
+           
+             
+
+            </div><!---second user close here-->
+            <div style="position: relative;padding-top: 40px;" align="left"><!---third user start here-->
+              <img src="avatar.jpg" alt="" height="70px" width="70px" style="border-radius: 50%;border: 2px solid red;margin-left: 15px;margin-top: 8px;"align="left">
+              <span class="font_family" style="margin-left: 10px;">Remy Daniel  </span>
+              <div style="margin-left: 95px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+              
+            </div>
+            <div align="right" style="margin-right: 10px;">
+              <span style="color: #00bff3;">More Comments ></span>
+               </div>
+           
+             
+
+            </div><!---third user close here-->
+            <div style="background-color: #434a54;height: 100px;margin-top: 20px;align-content: center;"align="LEFT"><!--middle portion (search box start here)-->
+              <span style="color: white;margin-left: 20px;"class="font_family" >Comments</span>
+              <textarea style="width: 400px;vertical-align: middle;border-radius: 5px;margin-left: 10px;" placeholder="Write your comment here..."></textarea>
+              <input type="button" value="Post"  style="border-radius: 5px;background-color: #00bff3;color: white; border: none;padding: 10px;width: 100px;vertical-align: middle;margin-left: 10px;">
+             </div><!-----middle portion end here-->
+
+        </div><!--middle column close here--->
+       
+    </div>
+    <div class="col" align="right"><!---right side colum div tag start here-->
+            <div style="width: 350px;background-color: white;"><!--first box start here-->
+                 <div align="left" style="margin-left: 15px;padding-top: 10px;"><!---first user start here-->
+                  <span class="font_family" style="font-size: larger;">Notifications</span>
+                  <br>
+                  <p class="new_font_family">
+                    <span style="color: #00bff3;">John </span><span style="color: #878787;">commented </span>
+                    <span><b>it was really helpful and.. </b></span><span style="color: #878787;">on your post </span>
+                    <span style="color: #00bff3;">'5 ways to successfully... <span style="color: #878787;">in </span>Running</span>
+                    <br>
+                    <div align="right" style="margin-right: 20px;" class="new_font_family"><span style="color: #878787;">15 Min Before</span></div>
+                    <hr style="margin-right: 20px;">
+                  </p>
+                  
+                </div><!---first user end here -->
+                <div align="left" style="margin-left: 15px;"><!---second user start here-->
+                  
+                  
+                  <p class="new_font_family">
+                    <span style="color: #00bff3;">John </span><span style="color: #878787;">commented </span>
+                    <span><b>it was really helpful and.. </b></span><span style="color: #878787;">on your post </span>
+                    <span style="color: #00bff3;">'5 ways to successfully... <span style="color: #878787;">in </span>Running</span>
+                    <br>
+                    <div align="right" style="margin-right: 20px;" class="new_font_family"><span style="color: #878787;">1 Hour Before</span></div>
+                    <hr style="margin-right: 20px;">
+                  </p>
+                  
+                </div><!---second user end here -->
+                <div align="left" style="margin-left: 15px;"><!---third user start here-->
+                  
+                  
+                  <p class="new_font_family">
+                    <span style="color: #00bff3;">John </span><span style="color: #878787;">commented </span>
+                    <span><b>it was really helpful and.. </b></span><span style="color: #878787;">on your post </span>
+                    <span style="color: #00bff3;">'5 ways to successfully... <span style="color: #878787;">in </span>Running</span>
+                    <br>
+                    <div align="right" style="margin-right: 20px;" class="new_font_family"><span style="color: #878787;">Yesterday</span></div>
+                    <hr style="margin-right: 20px;">
+                  </p>
+                  
+                </div><!---third user end here -->
+                <div align="left" style="margin-left: 15px;padding-bottom: 10px;"><!---foursth user start here-->
+                  
+                  
+                  <p class="new_font_family">
+                    <span style="color: #00bff3;">John </span><span style="color: #878787;">commented </span>
+                    <span><b>it was really helpful and.. </b></span><span style="color: #878787;">on your post </span>
+                    <span style="color: #00bff3;">'5 ways to successfully... <span style="color: #878787;">in </span>Running</span>
+                    <br>
+                    <div align="right" style="margin-right: 20px;" class="new_font_family"><span style="color: #878787;">2 Days Before</span></div>
+                    <hr style="margin-right: 20px;">
+                  </p>
+                  
+                </div><!---fourth user end here -->
+            </div><!--first box end here-->
+
+            <div style="width: 350px;background-color: white;margin-top: 50px;"><!--secons box start here-->
+              <div align="left" style="margin-left: 15px;padding-top: 15px;padding-bottom: 10px;">
+                <sapn class="font_family" style="font-size: larger;">Recent Messages</sapn>
+                <br><br>
+                <span style="font-size: larger;color:#00bff3;">Remy Daniel</span><!---first user start here-->
+                <br>
+                <p style="margin-right: 10px;text-overflow: clip;">
+                  Lorem ipsum dolor sit amet, consectetu-<br>r adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali-<br>qua.
+                </p>
+               <div align="right" style="margin-right: 25px;"><input type="button" value="Replay" style="background-color: #00bff3;border: none;color: white;padding: 5px;text-align: center;border-radius: 5px;padding-inline: 10px;">
+                <hr>
+              </div><!---first user end here-->
+
+              <span style="font-size: larger;color:#00bff3;">Paul Brunet</span><!---second user start here-->
+                <br>
+                <p style="margin-right: 10px;text-overflow: clip;">
+                  Lorem ipsum dolor sit amet, consectetu-<br>r adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali-<br>qua.
+                </p>
+               <div align="right" style="margin-right: 25px;"><input type="button" value="Replay" style="background-color: #00bff3;border: none;color: white;padding: 5px;text-align: center;border-radius: 5px;padding-inline: 10px;">
+                <hr>
+              </div><!---second user end here-->
+              
+            </div> 
+            </div><!--second box end here-->
+
+
+
+    </div><!---right side column div tag lose here -->
+   
+    </div><!---second row div close here-->
+    </div><!----container fluid div close here-->
+    
+   
+</body>
+</html>
